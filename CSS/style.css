@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body {
+    width: 400px;
+    min-width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+main {
+    background-color: #ffff8f;
+    box-shadow: 5px 5px 10px gray;
+    margin: auto;
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#heading {
+    background-color: #fdda0d;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input {
+    border: none;
+    border: 2px solid #ffc000;
+    border-radius: 5px;
+}
+
+#title {
+    padding: 10px;
+    width: 50%;
+}
+
+#notes {
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #1f51ff;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#save-btn:hover {
+    background-color: #062bb1;
+}
+
+#reset {
+    background-color: lightgray;
+    color: black;
+}
+
+.container-css {
+    padding: 10px;
+}
+
+.note-container {
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note-content-container {
+    width: 85%;
+}
+
+.control-btn-container {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.note-content {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.dlt-icon,
+.edit-icon {
+    width: 45%;
+    cursor: pointer;
+}
