@@ -64,8 +64,8 @@ function render(arr) {
         <p class = "note-content">${arr[i].notes}</p>
       </div>
       <div class = "control-btn-container">
-        <img class = "edit-icon" src = "edit-icon.png" alt="edit">
-        <img class = "dlt-icon" src = "dlt-icon.png" alt="dlt">
+        <img class = "edit-icon" src = "Assets/edit-icon.png" alt="edit">
+        <img class = "dlt-icon" src = "Assets/dlt-icon.png" alt="dlt">
       </div>
     </div>`;
   }
